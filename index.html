@@ -1,0 +1,50 @@
+<!-- This is an HTML file for an Alarm Clock application -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Alarmclock.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Alarm Clock container -->
+    <div class="box">
+        <h2>Alarm Clock</h2>
+        <!-- Analog clock display -->
+        <div class="analog-clock">
+            <div class="h">
+                <div class="h-hand"></div>
+            </div>
+            <div class="m">
+                <div class="m-hand"></div>
+            </div>
+            <div class="s">
+                <div class="s-hand"></div>
+            </div>
+        </div>
+        <!-- Digital clock display -->
+        <div class="digital_clock" id="digital_clock"></div>
+        <!-- Select area for setting alarm time -->
+        <div class="slect_area">
+            <select name="" id="">
+                <option value="hour" selected hidden disabled>hour</option> <!-- Hour select dropdown -->
+            </select>
+            <select name="" id="">
+                <option value="minute" selected hidden disabled>minute</option> <!-- Minute select dropdown -->
+            </select>
+            <select name="" id="">
+                <option value="" selected hidden disabled>AM/PM</option> <!-- AM/PM select dropdown -->
+            </select>
+        </div>
+        <!-- Set Alarm button -->
+        <button class="set_alarm">Set Alarm</button>
+    </div>
+
+    <script src="Alarmclock.js"></script> <!-- JavaScript file -->
+</body>
+
+</html>
